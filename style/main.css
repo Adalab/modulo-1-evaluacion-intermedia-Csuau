@@ -2,14 +2,15 @@
     --primary-text: #ffffff;
     --secondary-text: #4a4a4a;
     --primary-bg: #3CDBC0;
+   
 
 }
 *{
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
-
+    }
+html{
+     font-family: 'Rubik', sans-serif;
 }
-
 
 .header{
     
