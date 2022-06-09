@@ -4,7 +4,9 @@
     --primary-bg: #3CDBC0;
 
 }
-
+*{
+    box-sizing: border-box;
+}
 html{
     font-family: 'Rubik', sans-serif;
 }
@@ -26,6 +28,9 @@ html{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+
 
 .menu{
     width: 155px;
@@ -62,4 +67,23 @@ html{
     text-align: center;
     
 
+}
+
+@media screen and (min-width:768px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 30px;
+
+        }
+        .logo{
+            padding: 0;
+        }
+       .menu{
+           text-align: right;
+           padding-bottom: 0;
+       }
+
+        
+    
 }
